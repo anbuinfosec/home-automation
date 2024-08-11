@@ -94,5 +94,5 @@ Your home automation system is now set up and ready to use. Control your devices
 ---
 
 ### [+] Developer: [Mohammad Alamin](https://anbusec.xyz)
-
+### [+] Special thanks to [ChatGpt](https://chatgpt.com/)
 ---
