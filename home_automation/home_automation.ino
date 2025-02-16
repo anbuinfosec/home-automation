@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "XXXXXXXXXXXXXXX"
-#define BLYNK_TEMPLATE_NAME "XXXXXXXXXXXXXXX"
-#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXX"
+#define BLYNK_TEMPLATE_ID "TMPL6Idv6BoiV"
+#define BLYNK_TEMPLATE_NAME "NodeMCU"
+#define BLYNK_AUTH_TOKEN "fehVTFiCpKOZNiutc_UbnF4quLiwxld1"
 
 // Include necessary libraries
 #include <ESP8266WiFi.h>
@@ -8,12 +8,12 @@
 #include <ESP8266WebServer.h>
 
 // Replace with your WiFi credentials
-char ssid[] = "XXXXXXXXXXXXXXX"; // replace with your ssid
-char pass[] = "XXXXXXXXXXXXXXX"; // replace with your password
+char ssid[] = "Meow"; // replace with your ssid
+char pass[] = "0xANBUINFOSEC#1337#XD"; // replace with your password
 
 // New SSID credentials
-char ssidName[] = "XXXXXXXXXXXXXXX";
-char ssidPwd[] = "XXXXXXXXXXXXXXX";
+char ssidName[] = "Home Automation";
+char ssidPwd[] = "ANBU#1337#";
 
 // Pin definitions
 const int RelayPin1 = D1;
