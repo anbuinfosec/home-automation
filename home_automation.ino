@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "XXXXXXXXXXXXXXX"
-#define BLYNK_TEMPLATE_NAME "XXXXXXXXXXXXXXX"
-#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXX"
+#define BLYNK_TEMPLATE_ID "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#define BLYNK_TEMPLATE_NAME "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 // Include necessary libraries
 #include <ESP8266WiFi.h>
@@ -8,12 +8,12 @@
 #include <ESP8266WebServer.h>
 
 // Replace with your WiFi credentials
-char ssid[] = "XXXXXXXXXXXXXXX"; // replace with your ssid
-char pass[] = "XXXXXXXXXXXXXXX"; // replace with your password
+char ssid[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; // replace with your ssid
+char pass[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXD"; // replace with your password
 
 // New SSID credentials
-char ssidName[] = "XXXXXXXXXXXXXXX";
-char ssidPwd[] = "XXXXXXXXXXXXXXX";
+char ssidName[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+char ssidPwd[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 // Pin definitions
 const int RelayPin1 = D1;
@@ -150,13 +150,13 @@ void manual_control()
   }
 }
 
-void ledCon()
-{
-  digitalWrite(16, LOW);
-  delay(100);
-  digitalWrite(16, HIGH);
-  delay(100);
-}
+// void ledCon()
+// {
+//   digitalWrite(16, LOW);
+//   delay(100);
+//   digitalWrite(16, HIGH);
+//   delay(100);
+// }
 
 // Function to sync relay states with Blynk cloud
 void syncRelayStates()
@@ -578,5 +578,5 @@ void loop()
   server.handleClient();
 
   // Blink the LED to show the device is running
-  ledCon();
+  // ledCon();
 }
